@@ -13,6 +13,11 @@
   ],
   "license": "MIT",
   "author": "Nahid Ibrahimov <nahidibrahimovv@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nahidibrahimov/strapi-plugin-az-slug.git"
+  },
+  "homepage": "https://github.com/nahidibrahimov/strapi-plugin-az-slug",
   "type": "commonjs",
   "files": [
     "dist"
