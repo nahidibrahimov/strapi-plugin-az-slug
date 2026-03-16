@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-az-slug",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A Strapi plugin that provides an Azerbaijani-aware slug custom field with frontend slug generation and availability check.",
   "keywords": [
     "strapi",

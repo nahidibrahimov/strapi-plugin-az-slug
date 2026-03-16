@@ -46,7 +46,7 @@ async function validateSlug(event: LifecycleEvent, strapi: any) {
       [fieldName]: slugValue,
     };
 
-    const documentId = (where as any)?.documentId;
+    const documentId = (where as any)?.documentId ?? (data as any)?.documentId;
     if (documentId) {
       filters.documentId = { $ne: documentId };
     }
